@@ -10,11 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.3.0
       
       - name: Cache node modules
         id: cache-node-modules
-        uses: actions/cache@v3.0.3
+        uses: actions/cache@v3.2.5
         env:
           cache-name: cache-node-modules
         with:          
