@@ -19,6 +19,6 @@
   "dependencies": {
     "@octokit/rest": "^18.12.0",
     "axios": "^1.7.9",
-    "redis": "^5.8.1"
+    "redis": "^5.8.2"
   }
 }
